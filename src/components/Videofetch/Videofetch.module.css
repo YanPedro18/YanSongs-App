@@ -1,0 +1,18 @@
+.props {
+
+width: 30vw;
+color: black;
+background-color: rgb(120, 122, 122);
+height: 50vh;
+
+margin: 0 auto;
+}
+
+.props > h1 {
+    font-size: 2.0rem;
+    color: black;
+}
+.props > p {
+    font-size: 2.0rem;
+    color: black;
+}

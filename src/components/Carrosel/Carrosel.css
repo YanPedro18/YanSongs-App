@@ -1,0 +1,10 @@
+div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #dc1a28;
+    font-size: 1.7rem;
+}

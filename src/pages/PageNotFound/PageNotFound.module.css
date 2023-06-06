@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.819);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes seila{
+    0% {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
+
+}
+
+.container > img {
+    width: 14%;
+    padding: 1rem;
+    animation: seila 4s infinite 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.container > p {
+    color: white;
+}
+.container > h1 {
+    border-bottom: 5px solid #dc1a28;
+    padding: 1rem;
+    font-size: 2.0rem;
+}

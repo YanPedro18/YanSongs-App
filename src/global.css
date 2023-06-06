@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #010101;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+.teste {
+  text-align: center;
+  border-bottom: 1px solid crimson;
+}
+
+/*👉formatação geral dos cards👈*/
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
